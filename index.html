@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Data Mahasiswa - Praktikum 1 - Kelas B</h1>
+        <p>halo semuanya, disini saya akan membuat sistem informasi untuk data mahasiswa</p>
+        <img src="https://id.wikipedia.org/wiki/Berkas:Logo_UnivLampung.png" alt="Logo Universitas Lampung" width="200" height="200">
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#informasi">Informasi Aplikasi</a></li>
+            <li><a href="#daftar-mahasiswa">Daftar Mahasiswa</a></li>
+            <li><a href="#form-tambah">Tambah Mahasiswa Baru</a></li>
+        </ul>
+    </nav>
+
+    //percobaan 2
+    <hr>
+    <main>
+        <section id="informasi">
+            <h2>Informasi Sistem</h2>
+            <p>Aplikasi ini digunakan untuk mengelola data mahasiswa,danmenambah data mahasiswa baru.</p>
+            <article>
+                <h3>Fungsi Aplikasi</h3>
+                <p> Aplikasi ini memiliki beberapa fungsi utama:</p>
+                <ul>
+                    <li>Menampilkan data mahasiswa</li>
+                    <li>Menambahkan data mahasiswa baru</li>
+                </ul>
+            </article>
+        </section>
+
+        //percobaan 3
+        <hr>
+        <section id="daftar-mahasiswa">
+            <h2>Daftar Mahasiswa Aktif</h2>
+            <p> Daftar mahasiswa yang sedang aktif dalam program studi.</p>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Foto</th>
+                        <th>NPM</th>
+                        <th>Nama Lengkap</th>
+                        <th>Program Studi</th>
+                        <th>Angkatan</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data mahasiswa akan ditampilkan di sini -->
+                     <tr>
+                        <td>1</td>
+                        <td><img src="https://www.google.com/imgres?q=wonyoung&imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D3803996018950895338&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Fp%2FDTKgp8kEewg%2F&docid=3XIJHHXi3ol-BM&tbnid=byA9T3N7HcI91M&vet=12ahUKEwi48Leq75yXAxVdyjgGHUh5O8MQnPAOegUIlQEQAA..i&w=1440&h=1080&hcb=2&ved=2ahUKEwi48Leq75yXAxVdyjgGHUh5O8MQnPAOegUIlQEQAA" alt="Foto Rafeyfa"></td>
+                        <td>2415061107</td>
+                        <td>Rafeyfa Asyla</td>
+                        <td>Teknik Informatika</td>
+                        <td>2024</td>
+                        <td>rfeyfaasl@gmail.com</td>
+                    </tr>
+                    <tr>    
+                        <td>2</td>
+                        <td><img src="https://www.google.com/imgres?q=kambing&imgurl=https%3A%2F%2Funair.ac.id%2Fwp-content%2Fuploads%2F2020%2F02%2F6-jenis-kambing-kacang-1.jpg&imgrefurl=https%3A%2F%2Funair.ac.id%2Fkeanekaragaman-genetik-plasma-nutfah-kambing-nigeria%2F&docid=R8TfgfFEthfeFM&tbnid=px1-NyzqqqFeYM&vet=12ahUKEwi4wcCR8JyXAxUnzTgGHb3fN2AQnPAOegQISBAA..i&w=484&h=329&hcb=2&ved=2ahUKEwi4wcCR8JyXAxUnzTgGHb3fN2AQnPAOegQISBAA" alt="Foto Hafni"></td>
+                        <td>2415061061</td>
+                        <td>Hafni Dzaki Haniyah</td>
+                        <td>Teknik Informatika</td>
+                        <td>2024</td>
+                        <td>hafniudh@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="https://www.google.com/imgres?q=monyet&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20241129%2Foriginal%2Fpngtree-a-cute-monkey-photo-png-image_17410668.png&imgrefurl=https%3A%2F%2Fid.pngtree.com%2Ffreepng%2Fa-cute-monkey-photo_17410668.html&docid=bCsKo9OyNGuAUM&tbnid=aVXlG5VteNRg9M&vet=12ahUKEwikwoy-8JyXAxU04TgGHS21EH8QnPAOegQIMxAA..i&w=2500&h=2500&hcb=2&ved=2ahUKEwikwoy-8JyXAxU04TgGHS21EH8QnPAOegQIMxAA" alt="Foto Jihan"></td>
+                        <td>2415061027</td>
+                        <td>Jihan Fatimah Az Zahra</td>
+                        <td>Teknik Informatika</td>
+                        <td>2024</td>
+                        <td>jihanfatimah@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        //percobaan 4
+        <hr>
+        <section id="form-tambah">
+            <h2>Tambah Mahasiswa Baru</h2>
+            <p>Masukkan data mahasiswa baru melalui formulir dibawah ini.</p>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Formulir Pendaftaran Mahasiswa Baru</legend>
+                
+                    <p>
+                        <label for="npm">Nomor Pokok Mahasiswa (NPM):</label><br>
+                        <input type="text" id="npm" name="npm" placeholder="Contoh : 2315061118" required pattern="[0-9]{8,12}" title="NPM harus berupa angka 8-12 digit"><br>
+                        <small>Pastikan NPM diisi dengan format angka 8-12 digit</small>
+                    </p>
+                    <p>
+                        <label for="nama">Nama Lengkap:</label><br>
+                        <input type="text" id="nama" name="nama" placeholder="Contoh : Rafeyfa Asyla" required minlength="3" maxlength="100"><br>
+                        <small>Nama harus terdiri dari 3 sampai 100 karakter</small>
+                    </p>
+                    <p>
+                        <label for="program_studi">Program Studi:</label><br>
+                        <select id="program_studi" name="program_studi" required>
+                            <option value="">Pilih Program Studi</option>
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                        </select><br>
+                        <small>Silakan pilih program studi yang sesuai</small>
+                    </p>
+                    <p>
+                        <label for="angkatan">Tahun Angkatan:</label><br>
+                        <input type="number" id="angkatan" name="angkatan" placeholder="Contoh : 2024" required min="2018" max="2026"><br>
+                        <small>Angkatan harus berupa tahun antara 2018 hingga 2026</small>
+
+                    </p>
+                    <p>
+                        <label for="email">Alamat Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Contoh : email@example.com" required><br>
+                        <small>Harap masukkan alamat email yang valid</small>
+                    </p>
+                    <p>
+                        <button type="submit">Simpan Data Mahasiswa</button>
+                        <button type="reset">Reset Formulir</button>
+                    </p>
+            </form>
+        </section>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.editor="C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name=Rafeyfa Asyla
+user.email=2415061107@students.unila.ac.id
+init.defaultbranch=main
